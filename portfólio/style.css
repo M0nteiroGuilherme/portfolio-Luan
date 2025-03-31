@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+html {
+    scroll-padding-top: 90px;
+}
+
+
+body {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: linear-gradient(to top, #190707, #2f0707, #100707);
+}
+
+.icon {
+    width: 5vw;
+}
+
+.tab {
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(-105deg, #190707, #100707);
+    display: flex;
+    justify-content: space-around;
+}
+
+.separacao {
+    background-color: #fff;
+    width: 100vw;
+    height: 1px;
+}
+
+.tabButton {
+    display: inline-block;
+    padding: 0.6em 1.7em;
+    border: 0.1em solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.tabButton:hover{
+    color: #ffffff;
+    background-color: #e64343;
+    border: 0.1em solid #e64343;
+    transition: 0.8s;
+}
+
+.content {
+    margin-left: 15vw;
+    align-items: center;
+    display: flex;
+}
+
+.SobreMim{
+    padding: 30px;
+}
+
+.SobreMim,
+.Projetos {
+    display: flex;
+    align-items: center;
+}
+
+.SubDivSobreMim {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    width: 50vw;
+}
+
+.Projetos {
+    margin-left: 10vw;
+}
+
+
+.especialista {
+    margin-left: 10px;
+}
+
+.projeto1e2,
+.projeto3 {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #740b0b;
+}
+
+.projeto2 {
+    margin-left: 20px;
+}
+
+.Projetos>div>h1 {
+    margin-bottom: 20px;
+}
+
+.projeto1e2 {
+    height: 17vw;
+    width: 20vw;
+    margin-bottom: 20px;
+}
+
+.SubDivProjetos {
+
+    display: flex;
+}
+
+.contato{
+    padding: 30px;
+}
+
+.IconContato{
+    width: 30px;
+}
+
+.listaContato{
+    justify-content: space-around;
+    display: flex;
+}
+
+.contato > h1{
+    margin-bottom: 30px;
+}
+
+.imageProgramador{
+    border-radius: 15px;
+    margin: 20px;
+    width: 400px;
+    
+}
+
+.imageCodando{
+    border-radius: 15px;
+    margin: 20px;
+    width: 400px;
+}
+
+.invisivel{
+    cursor: context-menu;
+}
+
+.contentEsquerdo{
+    margin-right: 15vw;
+}
+
+.contentDireito{
+    margin-left: 5vw;
+}
+
+.navbar{
+    background-color: #190707;
+   justify-content: space-around;
+    position: fixed;
+}
+
+.navbar2{
+    display: flex;
+}
+
+.navdiv{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    list-style: none; 
+    display: inline-block;
+}
+a{
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-right: 25px;
+}
+
+.buttonIntens:hover{
+    color: #e64343;
+    transition: 0.5s;
+}
